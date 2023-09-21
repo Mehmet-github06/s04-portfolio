@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    
+}
+nav{
+    background-color: black;
+}
+nav a{
+  
+    color: white;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin:10px;
+    font-family: "roboto";
+}
+nav a:hover{
+    background-color: rgb(113, 122, 109);
+    color: rgb(241, 15, 102);
+}
+.hero{
+    background-image: url(../img/computer-2982270_1280.jpg);
+    height: calc(100vh - 58px);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.heros{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 40px;
+    width: 50px;
+    background-color: green;
+
+    
+}
+.fixed:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fixed a:visited{
+    color: green;
+}
+.fixed a:active{
+    color: greenyellow;
+}
+.fixed a:link{
+    color: greenyellow;
+}
+
